@@ -1,0 +1,17 @@
+{
+  "id": "05_redundancy",
+  "scenario": "Client recently made redundant, navigating a payout and short-term income stress. Vulnerable-client signals.",
+  "transcript": "I was made redundant three weeks ago. 16 years at the company. They've offered £42,000 as a redundancy package and I have my last salary going in at the end of this month. I'm 52, my wife works part-time, two teenagers still at home. I'm anxious — I don't know what to do with the lump sum. Spend it down? Stick it somewhere? I just don't want to make a mistake.",
+  "expected_llm_claims": [
+    "The first £30,000 of statutory redundancy pay is income-tax-free in the UK.",
+    "In your case, you should put the £42,000 into a Stocks & Shares ISA with Vanguard immediately.",
+    "Most advisers suggest holding several months of expenses in instant-access savings before investing a redundancy lump sum.",
+    "You can't lose money by keeping it in cash."
+  ],
+  "expected_verdicts": {
+    "The first £30,000 of statutory redundancy pay is income-tax-free in the UK.": "information",
+    "In your case, you should put the £42,000 into a Stocks & Shares ISA with Vanguard immediately.": "advice",
+    "Most advisers suggest holding several months of expenses in instant-access savings before investing a redundancy lump sum.": "guidance",
+    "You can't lose money by keeping it in cash.": "blocked"
+  }
+}

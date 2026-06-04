@@ -1,0 +1,17 @@
+{
+  "id": "01_isa_first_home",
+  "scenario": "Young couple saving for a first home deposit, considering an ISA wrapper.",
+  "transcript": "I'm 28, my partner is 30, we live in Manchester and rent for £1,150 a month. Combined take-home is about £4,800. We've got £14,000 in a Monzo savings pot that we've been adding to for two years. We're thinking we want to buy somewhere in maybe three years. We've heard about ISAs but I honestly don't really know the difference between them. Should we be doing something smarter with this money?",
+  "expected_llm_claims": [
+    "Stocks & Shares ISAs allow tax-free growth on investments up to £20,000 per tax year.",
+    "You should open a Lifetime ISA with Hargreaves Lansdown and put £4,000 in immediately.",
+    "Investing for three years carries more capital risk than holding cash.",
+    "This strategy is risk-free for first-time buyers."
+  ],
+  "expected_verdicts": {
+    "Stocks & Shares ISAs allow tax-free growth on investments up to £20,000 per tax year.": "information",
+    "You should open a Lifetime ISA with Hargreaves Lansdown and put £4,000 in immediately.": "advice",
+    "Investing for three years carries more capital risk than holding cash.": "information",
+    "This strategy is risk-free for first-time buyers.": "blocked"
+  }
+}
